@@ -1,11 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://fursuregrooming.com/index.html</loc>
-	</url>
-	<url>
-		<loc>https://fursuregrooming.com/booking.html</loc>
-	</url>
-	<url>
 		<loc>https://fursuregrooming.com/policy.html</loc>
 	</url>
 	<url>
@@ -13,5 +7,14 @@
 	</url>
 	<url>
 		<loc>https://fursuregrooming.com/terms-conditions.html</loc>
+	</url>
+	<url>
+		<loc>https://fursuregrooming.com/AboutUs.html</loc>
+	</url>
+	<url>
+		<loc>https://fursuregrooming.com/contact.html</loc>
+	</url>
+	<url>
+		<loc>https://fursuregrooming.com/index.html</loc>
 	</url>
 </urlset>
