@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fur Sure Mobile dog grooming and spa services in Denver, Colorado for all dog sizes.",
-    "currentPage": "events.html",
+    "currentPage": "index.html",
     "ai": {
       "prompt": "We are Fur Sure Grooming a mobile dog grooming and spa Salon service. we operate out of Denver Co. we offer Bath, full body grooming, nails, deskunking, demating, flea bath. We service small, medium, large dogs with short hair or long hair. ",
       "imageSearchQuery": "dogs"
@@ -7528,74 +7528,6 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".image-wrapper": {
-                "margin-bottom": "1rem"
-              }
-            },
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".row": {
-              "align-items": "center"
-            },
-            ".image-wrapper": {
-              "@media (max-width: 991px)": {
-                "padding": "1rem"
-              }
-            },
-            ".text-wrapper": {
-              "@media (min-width: 992px)": {
-                "padding": "0 2rem"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#51008e"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#000000"
-            }
-          },
-          "_name": "article04",
-          "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"start article4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-md-12 col-lg-{{imageWidth}} image-wrapper\">\n\t\t\t\t<img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/fursuremobilevaninterior662x328.webp-662x328.webp\" alt=\"Fur Sure Service Area\">\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-md-12 col-lg\">\n\t\t\t\t<div class=\"text-wrapper align-left\">\n\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Not sure if you're in our service area?</b></h1>\n\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Just click the button below to check! If your area isn’t listed, feel free to <a href=\"contact.html#header01-36\" class=\"text-primary\">reach out to us</a> — we might still be able to assist. We're always looking to expand, and your neighborhood could be next!<br></p>\n\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-primary\" href=\"https://booking.moego.pet/ol/landing?name=FurSureGroomingCo\" data-app-placeholder=\"Type Text\" target=\"_blank\">Check Service Area</a></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "uHOSVbtESy",
-          "_anchor": "article04-43",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = \"color\")": {
@@ -7844,6 +7776,74 @@
           "_anchor": "gallery03-3k",
           "_isUserblock": true,
           "_cid": "uH99UQFXm2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row": {
+              "align-items": "center"
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#51008e"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000"
+            }
+          },
+          "_name": "article04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"start article4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#f7f7f7\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-md-12 col-lg-{{imageWidth}} image-wrapper\">\n\t\t\t\t<img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/fursuremobilevaninterior662x328.webp-662x328.webp\" alt=\"Fur Sure Service Area\">\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-md-12 col-lg\">\n\t\t\t\t<div class=\"text-wrapper align-left\">\n\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Not sure if you're in our service area?</b></h1>\n\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Just click the button below to check! If your area isn’t listed, feel free to <a href=\"contact.html#header01-36\" class=\"text-primary\">reach out to us</a> — we might still be able to assist. We're always looking to expand, and your neighborhood could be next!<br></p>\n\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-primary\" href=\"https://booking.moego.pet/ol/landing?name=FurSureGroomingCo\" data-app-placeholder=\"Type Text\" target=\"_blank\">Check Service Area</a></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "uHOSVbtESy",
+          "_anchor": "article04-43",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -8961,7 +8961,7 @@
           },
           "_name": "news05",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"news05\" group=\"News\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n    <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"4\" max=\"8\" value=\"6\" step=\"1\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n    <input type=\"checkbox\" title=\"Event\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Date\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <header>Background</header>\n    <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n  </mbr-parameters>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12 mb-5 content-head\" mbr-if=\"showMainTitle || showMainSubtitle\">\n        <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">Fur Sure Grooming Pop Up</h3>\n        <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n          Bring your dog and visit as at these events for nail trims and baths.</h5>\n      </div>\n    </div>\n    <div class=\"row justify-content-center item features-without-image mb-5 active\">\n      <div class=\"col-12 col-lg-{{imageWidth}}\">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/sloans-brewing.png-1-682x492.png\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"2\" data-bs-slide-to=\"2\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">\n          Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Friday April 11, 2025 4-9pm</b><br>at <a href=\"https://www.odellbrewing.com/locations/sloans-lake-brewhouse/\" class=\"text-primary\" target=\"_blank\">Odell Brewing Sloan's Lake Brewhouse &amp; Pizzeria</a><br>1625 Perry Street Denver, CO 80204</h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back at Sloan's Lake Brewhouse, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n        <br><br>Special Pop Up Rate Services offered for:<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave<br>- Basic Pawdicure with Nail trimming/grinding<br><br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Book Now</a></div>\n      </div>\n    </div><div class=\"row justify-content-center item features-without-image mb-5\">\n      <div class=\"col-12 col-lg-{{imageWidth}}\">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/westminsterbrewingco672x448.jpg-672x448.jpg\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"1\" data-bs-slide-to=\"2\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">\n          Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Saturday April 12, 2025 11am-10pm</b><br>at <a href=\"https://webrewco.com/\" class=\"text-primary\" target=\"_blank\">Westminster Brewing Co</a> <br>7655 W 108th Ave, #600 Westminster, CO 80021</h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back at Westminster Brewing Co, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n        <br><br>Special Pop Up Rate Services offered for:<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave<br>- Basic Pawdicure with Nail trimming/grinding<br><br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Book Now</a></div>\n      </div>\n    </div><div class=\"row justify-content-center item features-without-image mb-5\">\n      <div class=\"col-12 col-lg-{{imageWidth}} \">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/westminsterbrewingco672x448.jpg-672x448.jpg\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"2\" data-bs-slide-to=\"0\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Saturday April 19, 2025 12-10pm</b><br>at <a href=\"https://webrewco.com/\" class=\"text-primary\" target=\"_blank\">Westminster Brewing Co</a>\n<div>7655 W 108th Ave, #600 Westminster, CO 80021</div></h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back at Westminster Brewing Co, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n<br>\n<br>Special Pop Up Rate Services offered for:\n<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.\n<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave\n<br>- Basic Pawdicure with Nail trimming/grinding<br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n          <a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn more</a>\n        </div>\n      </div>\n    </div><div class=\"row justify-content-center item features-without-image mb-5\">\n      <div class=\"col-12 col-lg-{{imageWidth}} \">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/westminsterbrewingco672x448.jpg-672x448.jpg\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"3\" data-bs-slide-to=\"3\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Saturday April 26, 2025 12-10pm</b><br>at <a href=\"https://webrewco.com/\" class=\"text-primary\" target=\"_blank\">Westminster Brewing Co</a>\n<div>7655 W 108th Ave, #600 Westminster, CO 80021</div></h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back at Westminster Brewing Co, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n<br>\n<br>Special Pop Up Rate Services offered for:\n<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.\n<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave\n<br>- Basic Pawdicure with Nail trimming/grinding&nbsp;<br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n          <a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn more</a>\n        </div>\n      </div>\n    </div>\n    \n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"news05\" group=\"News\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n    <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"4\" max=\"8\" value=\"6\" step=\"1\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n    <input type=\"checkbox\" title=\"Event\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Date\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <header>Background</header>\n    <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n  </mbr-parameters>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12 mb-5 content-head\" mbr-if=\"showMainTitle || showMainSubtitle\">\n        <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">Fur Sure Grooming Pop Up</h3>\n        <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n          Bring your dog and visit as at these events for nail trims and baths.</h5>\n      </div>\n    </div>\n    <div class=\"row justify-content-center item features-without-image mb-5 active\">\n      <div class=\"col-12 col-lg-{{imageWidth}}\">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/sloans-brewing.png-1-682x492.png\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"2\" data-bs-slide-to=\"2\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">\n          Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Friday April 11, 2025 4-9pm</b><br>at <a href=\"https://www.odellbrewing.com/locations/sloans-lake-brewhouse/\" class=\"text-primary\" target=\"_blank\">Odell Brewing Sloan's Lake Brewhouse &amp; Pizzeria</a><br>1625 Perry Street Denver, CO 80204</h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back with a cold one at Sloan's Lake Brewhouse, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n        <br><br>Special Event Rate Services offered for:<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave<br>- Basic Pawdicure with Nail trimming/grinding<br><br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Book Now</a></div>\n      </div>\n    </div><div class=\"row justify-content-center item features-without-image mb-5\">\n      <div class=\"col-12 col-lg-{{imageWidth}}\">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/westminsterbrewingco672x448.jpg-672x448.jpg\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"1\" data-bs-slide-to=\"2\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">\n          Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Saturday April 12, 2025 11am-10pm</b><br>at <a href=\"https://webrewco.com/\" class=\"text-primary\" target=\"_blank\">Westminster Brewing Co</a> <br>7655 W 108th Ave, #600 Westminster, CO 80021</h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back with a cold one at Westminster Brewing Co, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n        <br><br>Special Event Rate Services offered for:<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave<br>- Basic Pawdicure with Nail trimming/grinding<br><br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Book Now</a></div>\n      </div>\n    </div><div class=\"row justify-content-center item features-without-image mb-5\">\n      <div class=\"col-12 col-lg-{{imageWidth}} \">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/westminsterbrewingco672x448.jpg-672x448.jpg\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"2\" data-bs-slide-to=\"0\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Saturday April 19, 2025 12-10pm</b><br>at <a href=\"https://webrewco.com/\" class=\"text-primary\" target=\"_blank\">Westminster Brewing Co</a>\n<div>7655 W 108th Ave, #600 Westminster, CO 80021</div></h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back with a cold one at Westminster Brewing Co, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n<br>\n<br>Special Event Rate Services offered for:\n<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.\n<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave\n<br>- Basic Pawdicure with Nail trimming/grinding<br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n          <a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn more</a>\n        </div>\n      </div>\n    </div><div class=\"row justify-content-center item features-without-image mb-5\">\n      <div class=\"col-12 col-lg-{{imageWidth}} \">\n        <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/westminsterbrewingco672x448.jpg-672x448.jpg\" alt=\"Fur Sure Grooming popup BathBrew\" data-slide-to=\"3\" data-bs-slide-to=\"3\">\n      </div>\n      <div class=\"col-12 col-lg item-wrapper\">\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-3 mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\">Bath &amp; Brew Pop Up</h5>\n        <h6 class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\"><b>Saturday April 26, 2025 12-10pm</b><br>at <a href=\"https://webrewco.com/\" class=\"text-primary\" target=\"_blank\">Westminster Brewing Co</a>\n<div>7655 W 108th Ave, #600 Westminster, CO 80021</div></h6>\n        <p class=\"mbr-text mbr-fonts-style mt-0 mb-3\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Join us for the ultimate treat—for both you and your pup! While you kick back with a cold one at Westminster Brewing Co, we’ll pamper your dog with a refreshing bath in the Fur Sure Mobile Grooming Van.\n<br>\n<br>Special Event Rate Services offered for:\n<br>- Bath Package with Bath, Blow dry, Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave.\n<br>- Delux Pawdicure with Nail trimming/grinding, Ear and Teeth cleaning, paw pad shave\n<br>- Basic Pawdicure with Nail trimming/grinding&nbsp;<br></p>\n        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n          <a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn more</a>\n        </div>\n      </div>\n    </div>\n    \n  </div>\n</section>",
           "_cid": "uHD2tNQVT5",
           "_anchor": "news05-40",
           "_protectedParams": [],
