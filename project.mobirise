@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fur Sure Mobile dog grooming and spa services in Denver, Colorado for all dog sizes.",
-    "currentPage": "terms-conditions.html",
+    "currentPage": "AboutUs.html",
     "ai": {
       "prompt": "We are Fur Sure Grooming a mobile dog grooming and spa Salon service. we operate out of Denver Co. we offer Bath, full body grooming, nails, deskunking, demating, flea bath. We service small, medium, large dogs with short hair or long hair. ",
       "imageSearchQuery": "dogs"
@@ -3469,9 +3469,9 @@
     },
     "AboutUs.html": {
       "settings": {
-        "title": "About Us | Fur Sure Grooming - Mobile Dog Grooming Westminster, CO",
+        "title": "About Us | Fur Sure Grooming Mobile Dog Grooming Services",
         "order": "1",
-        "meta_descr": "Learn about Fur Sure Grooming — your trusted mobile dog groomers in Westminster, CO. Learn how Fur Sure Grooming brings stress-free, professional care to pets across the Denver area.",
+        "meta_descr": "Learn about Fur Sure Grooming's experienced team of mobile dog groomers. We're passionate about pets and committed to safe, loving grooming on the go.",
         "meta_image": "@PROJECT_PATH@/assets/images/fur-sure-grooming-favicon-280x276.png"
       },
       "components": [
@@ -6711,7 +6711,7 @@
           },
           "_name": "article12",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">Mobile Pet Spa for Dogs</h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">The storytelling magic of photos\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><br>Every dog deserves a day of pampering at Fur Sure Grooming&nbsp;we make that happen right at your doorstep! As a trusted mobile dog groomer serving Westminster, Denver, Northglenn, Broomfield and surrounding areas, we bring the full salon experience to you.&nbsp;No more stressful car rides or waiting rooms—just a happier, fluffier pup without leaving home.<br><br>Our <a href=\"AboutUs.html#header01-2v\" class=\"text-black text-primary\">professional groomers</a> provide personalized, one-on-one attention in a clean, cage-free, and stress-free environment. We tailor each grooming session to your dog’s unique needs, using a gentle approach that’s ideal for seniors, anxious pets, and dogs with special grooming requirements.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">Mobile Pet Spa for Dogs</h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">The storytelling magic of photos\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><br>Every dog deserves a day of pampering at Fur Sure Grooming&nbsp;we make that happen right at your doorstep! As a trusted mobile dog groomer serving Westminster, Denver, Northglenn, Broomfield and surrounding areas, we bring the full salon experience to you.&nbsp;No more stressful car rides or waiting rooms—just a happier, fluffier pup without leaving home.<br><br>Our&nbsp;top notch&nbsp;<a href=\"AboutUs.html#header01-2v\" class=\"text-black text-primary\">professional groomers</a> provide personalized, one-on-one attention in a clean, cage-free, and stress-free environment. We tailor each grooming session to your dog’s unique needs, using a gentle approach that’s ideal for seniors, anxious pets, and dogs with special grooming requirements.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "article12-37",
           "_isUserblock": true,
           "_cid": "uH2JW6vrlq",
@@ -9127,7 +9127,7 @@
       "settings": {
         "title": "Mobile Dog Grooming Services in Westminster, CO | Fur Sure Grooming",
         "order": "6",
-        "meta_descr": "Stress-free mobile dog grooming in Westminster, CO. Fur Sure Grooming brings expert pet care directly to your door. Book your pup's spa day now!",
+        "meta_descr": "Serving Westminster with trusted, mobile dog grooming at your doorstep. Fur Sure Grooming makes pampering your pup easy and convenient—schedule today.",
         "meta_image": "@PROJECT_PATH@/assets/images/fur-sure-grooming-favicon-280x276.png"
       },
       "components": [
@@ -10641,9 +10641,9 @@
     },
     "dog-grooming-arvada.html": {
       "settings": {
-        "title": "Mobile Dog Grooming in Arvada, CO | Fur Sure Grooming",
+        "title": "Arvada’s Trusted Mobile Dog Groomer | Fur Sure Grooming",
         "order": "7",
-        "meta_descr": "Reliable mobile dog grooming in Arvada, CO. Fur Sure Grooming offers stress-free in-van dog wash and grooming at your home. Book now!",
+        "meta_descr": "Fur Sure Grooming proudly offers mobile dog grooming in Arvada, CO. Enjoy spa-quality grooming in your driveway—book today.",
         "meta_image": "@PROJECT_PATH@/assets/images/fur-sure-grooming-favicon-280x276.png"
       },
       "components": [
@@ -12157,9 +12157,9 @@
     },
     "dog-grooming-broomfield.html": {
       "settings": {
-        "title": "Mobile Dog Grooming in Broomfield, CO | Fur Sure Grooming",
+        "title": "Broomfield Mobile Dog Grooming | At-Home Pet Care | Fur Sure",
         "order": "8",
-        "meta_descr": "Top-rated mobile dog grooming in Broomfield, CO. Stress-free dog grooming at your home with Fur Sure Grooming. Book online today!",
+        "meta_descr": "Bringing the grooming salon to Broomfield homes! Fur Sure Grooming offers mobile dog grooming with gentle care and professional results. Book now.",
         "meta_image": "@PROJECT_PATH@/assets/images/fur-sure-grooming-favicon-280x276.png"
       },
       "components": [
@@ -13673,9 +13673,9 @@
     },
     "FAQ.html": {
       "settings": {
-        "title": "Fur Sure Grooming Mobile Service FAQ",
+        "title": "Dog Grooming FAQs | Fur Sure Grooming Mobile Service Questions",
         "order": "3",
-        "meta_descr": "Fur Sure Grooming Mobile Service brings expert, caring canine grooming to your door in North Denver & nearby areas. Have questions?",
+        "meta_descr": "Got questions about mobile dog grooming? Find answers about scheduling, products, and more with Fur Sure Grooming’s FAQ guide.",
         "meta_image": "@PROJECT_PATH@/assets/images/fur-sure-grooming-favicon-280x276.png"
       },
       "components": [
