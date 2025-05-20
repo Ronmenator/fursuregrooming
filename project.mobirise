@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fur Sure Mobile dog grooming and spa services in Denver, Colorado for all dog sizes.",
-    "currentPage": "index.html",
+    "currentPage": "events.html",
     "ai": {
       "prompt": "We are Fur Sure Grooming a mobile dog grooming and spa Salon service. we operate out of Denver Co. we offer Bath, full body grooming, nails, deskunking, demating, flea bath. We service small, medium, large dogs with short hair or long hair. ",
       "imageSearchQuery": "dogs"
@@ -296,7 +296,7 @@
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1HY02YTECH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-1HY02YTECH');\n</script>",
     "publishEditFolder": false,
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "publishPath": "@PROJECT_PATH@2"
   },
   "pages": {
     "policy.html": {
@@ -5833,7 +5833,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Mobile Dog Grooming in North Denver, CO | Fur Sure Grooming",
+        "title": "Mobile Dog Grooming in Denver, CO | Fur Sure Grooming",
         "meta_descr": "Mobile dog grooming in Denver, Arvada, Broomfield, Westminster & nearby! Baths, full-body haircuts, de-shed, dog clipping and nail trims by Fur Sure Grooming. Book online today!",
         "header_custom": "",
         "footer_custom": "",
