@@ -39,6 +39,10 @@ const Terser = require('terser');
   // Minify CSS
   const cssMinifier = new CleanCSS({});
   cssFiles.forEach(relPath => {
+    if (relPath.includes('.min.')) {
+      console.log(`Skipping already minified CSS: ${relPath}`);
+      return;
+    }
     const filePath = path.normalize(relPath);
     if (!fs.existsSync(filePath)) {
       console.warn(`CSS file not found: ${relPath}`);
@@ -56,6 +60,10 @@ const Terser = require('terser');
 
   // Minify JS
   for (const relPath of jsFiles) {
+    if (relPath.includes('.min.')) {
+      console.log(`Skipping already minified JS: ${relPath}`);
+      continue;
+    }
     const filePath = path.normalize(relPath);
     if (!fs.existsSync(filePath)) {
       console.warn(`JS file not found: ${relPath}`);
