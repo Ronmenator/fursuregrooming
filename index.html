@@ -99,7 +99,7 @@
         j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
         f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-PPRK5CXK');
-    }, 2500); // Adjust delay (in ms) based on your needs
+    }, 2000); // Adjust delay (in ms) based on your needs
   });
 </script>
 <!-- End Google Tag Manager -->
@@ -108,7 +108,9 @@
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPRK5CXK"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+          height="0" width="0" style="display: none !important; visibility: hidden;" 
+          aria-hidden="true"
+          title="GTM"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 
