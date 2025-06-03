@@ -3,11 +3,13 @@
     "version": "1.0.0",
     "description": "Static website for Fur Sure Grooming",
     "scripts": {
-        "minify": "node minify-assets.js"
+        "minify": "node minify-assets.js",
+        "convert-images": "node convert-images.js"
     },
     "devDependencies": {
         "clean-css": "^5.3.2",
         "glob": "^7.2.3",
-        "terser": "^5.17.6"
+        "terser": "^5.17.6",
+        "sharp": "^0.31.3"
     }
 }
