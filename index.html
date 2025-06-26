@@ -60,6 +60,12 @@
       "addressLocality": "Westminster",
       "addressRegion": "CO",
       "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-417-521-0079",
+      "contactType": "customer service",
+      "availableLanguage": "English"
     }
   }
   </script>
@@ -73,6 +79,7 @@
     "@id": "https://fursuregrooming.com",
     "url": "https://fursuregrooming.com",
     "telephone": "+1-417-521-0079",
+    "foundingDate": "2025",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Mobile Business",
@@ -102,10 +109,18 @@
   ],
     "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
     "priceRange": "$$",
+    "paymentAccepted": "Credit Card",
+    "currenciesAccepted": "USD",
     "sameAs": [
       "https://www.facebook.com/profile.php?id=61572299068336",
       "https://www.instagram.com/fursuremobilegrooming"
     ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-417-521-0079",
+      "contactType": "customer service",
+      "availableLanguage": "English"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Dog Grooming Services",
@@ -196,6 +211,28 @@
         "name": "Jacob R."
       },
       "reviewBody": "Amazing mobile grooming service! My dog was so relaxed and the groomer was professional and caring. Highly recommend!"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Fur Sure Grooming",
+      "url": "https://fursuregrooming.com",
+      "description": "Professional mobile dog grooming services in Denver, CO",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Fur Sure Grooming",
+        "logo": "https://fursuregrooming.com/assets/images/logo-1500x429-417x119.webp"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://fursuregrooming.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     }
   </script>
   <!-- End Schema -->

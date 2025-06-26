@@ -29,37 +29,93 @@
   <meta property="og:title" content="Dog Grooming Services in Broomfield | Fur Sure Grooming" />
 <meta property="og:description" content="Convenient, mobile dog grooming in Broomfield, CO. We deliver top-notch grooming right to your driveway—clean, calm, and hassle-free." />
 
-<!-- JSON-LD Local Business Schema Markup for Broomfield Page -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Fur Sure Grooming - Broomfield",
-  "description": "Mobile dog grooming services in Broomfield, Colorado. Full-service, stress-free grooming delivered to your home by Fur Sure Grooming.",
-  "image": "https://fursuregrooming.com/assets/images/dog-grooming-broomfield-meta.webp",
-  "@id": "https://fursuregrooming.com/dog-grooming-broomfield.html",
-  "url": "https://fursuregrooming.com/dog-grooming-broomfield.html",
-  "telephone": "+1-417-521-0079",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Mobile Business",
-    "addressLocality": "Broomfield",
-    "addressRegion": "CO",
-    "postalCode": "80020",
-    "addressCountry": "US"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Broomfield"
-  },
-  "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
-  "sameAs": [
-		  "https://www.facebook.com/profile.php?id=61572299068336",
-		  "https://www.instagram.com/fursuremobilegrooming"
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	  {
+		  "@type": "LocalBusiness",
+		  "@id": "https://fursuregrooming.com/dog-grooming-broomfield.html#business",		
+  		  "name": "Fur Sure Grooming - Broomfield",
+ 		  "description": "Mobile dog grooming services in Broomfield, Colorado. Full-service, stress-free grooming delivered to your home by Fur Sure Grooming.",
+		  "image":["https://fursuregrooming.com/assets/images/dog-grooming-broomfield-meta.webp" ],
+  		  "url": "https://fursuregrooming.com/dog-grooming-broomfield.html",
+		  "telephone": "+1-417-521-0079",
+		  "address": {
+			  "@type": "PostalAddress",
+			  "streetAddress": "Mobile Business",
+			  "addressLocality": "Broomfield",
+    		  "addressRegion": "CO",
+    		  "postalCode": "80020",
+			  "addressCountry": "US"
+		  },
+		  "areaServed": {
+			  "@type": "Place",
+			  "name": "Broomfield"
+		  },
+		  "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
+		  "priceRange": "$$",
+		  "paymentAccepted": "Credit Card",  
+		  "sameAs": [
+			  "https://www.facebook.com/profile.php?id=61572299068336",
+			  "https://www.instagram.com/fursuremobilegrooming"
+			  ],
+		"hasOfferCatalog": {
+		"@type": "OfferCatalog",
+		"name": "Broomfield Dog Grooming Services",
+		"itemListElement": [
+		  {
+			"@type": "Offer",
+			"itemOffered": {
+			  "@type": "Service",
+			  "name": "Full-Service Dog Grooming Packages",
+			  "description": "Baths, brushing, full body haircuts, clipping, nail trims, ear cleaning, teeth and breath refresh"
+			}
+		  },
+		  {
+			"@type": "Offer", 
+			"itemOffered": {
+			  "@type": "Service",
+			  "name": "Bath Dog Grooming Service",
+			  "description": "Bath, Blow-dry, Brush with nail trimming, ear cleaning, teeth & breath refresh"
+			}
+		  },
+		  {
+			"@type": "Offer",
+			"itemOffered": {
+			  "@type": "Service", 
+			  "name": "Nail Trims with Refresh",
+			  "description": "Nail trims with teeth and breath refresh for in-between grooms"
+			}
+		  }
 		]
-}
-</script>
-<!-- End Schema -->
+	   }
+	},
+	{
+	  "@type": "BreadcrumbList",
+	  "itemListElement": [
+		{
+		  "@type": "ListItem",
+		  "position": 1,
+		  "item": {
+			"@id": "https://fursuregrooming.com/",
+			"name": "Home"
+		  }
+		},
+		{
+		  "@type": "ListItem",
+		  "position": 2,
+		  "item": {
+			"@id": "https://fursuregrooming.com/dog-grooming-broomfield.html",
+			"name": "Broomfield Dog Grooming"
+		  }
+		}
+	  ]
+	}
+  ]
+  }
+  </script>
+	<!-- End Schema -->
 
   
   <!-- Google Tag Manager (deferred for performance) -->

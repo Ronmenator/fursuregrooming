@@ -34,11 +34,13 @@
 <script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
+	  "@graph": [
+	{      
 	  "@type": "LocalBusiness",
+	  "@id": "https://fursuregrooming.com/dog-grooming-arvada.html#business",      
 	  "name": "Fur Sure Grooming - Arvada",
 	  "description": "Professional mobile dog grooming services in Arvada, Colorado. Convenient, full-service pet grooming brought right to your door by Fur Sure Grooming.",
-	  "image": "https://fursuregrooming.com/assets/images/dog-grooming-arvada-meta.webp",
-	  "@id": "https://fursuregrooming.com/dog-grooming-arvada.html",
+	  "image": ["https://fursuregrooming.com/assets/images/dog-grooming-arvada-meta.webp"],
 	  "url": "https://fursuregrooming.com/dog-grooming-arvada.html",
 	  "telephone": "+1-417-521-0079",
 	  "address": {
@@ -54,6 +56,8 @@
 		"name": "Arvada"
 	  },
 	  "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
+	  "priceRange": "$$",
+	  "paymentAccepted": "Credit Card",  
 	  "sameAs": [
 			  "https://www.facebook.com/profile.php?id=61572299068336",
 			  "https://www.instagram.com/fursuremobilegrooming"
@@ -88,6 +92,29 @@
 		}
 	  ]
 	 }
+		},
+		{
+		  "@type": "BreadcrumbList",
+		  "itemListElement": [
+			{
+			  "@type": "ListItem",
+			  "position": 1,
+			  "item": {
+				"@id": "https://fursuregrooming.com/",
+				"name": "Home"
+			  }
+			},
+			{
+			  "@type": "ListItem",
+			  "position": 2,
+			  "item": {
+				"@id": "https://fursuregrooming.com/dog-grooming-arvada.html",
+				"name": "Arvada Dog Grooming"
+			  }
+			}
+		  ]
+		}
+	  ]
 	}
 	</script>
 	<!-- End Schema -->
