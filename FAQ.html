@@ -44,16 +44,18 @@
       "name": "Frequently Asked Questions - Fur Sure Grooming",
       "description": "Common questions about mobile dog grooming services in the Denver metro area",  
       "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Do you come to my house for grooming?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Absolutely! Fur Sure Grooming is a fully mobile dog grooming service — we come directly to your home in Westminster, Arvada, Longmont, and other nearby areas. All services take place in our state-of-the-art grooming van parked right outside your house. It's convenient, low-stress, and personalized."
-        }
-      },
         {
           "@type": "Question",
+          "@id": "https://fursuregrooming.com/FAQ.html#q1",
+          "name": "Do you come to my house for grooming?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! Fur Sure Grooming is a fully mobile dog grooming service — we come directly to your home in Westminster, Arvada, Longmont, and other nearby areas. All services take place in our state-of-the-art grooming van parked right outside your house. It's convenient, low-stress, and personalized."
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://fursuregrooming.com/FAQ.html#q2",
           "name": "How does Fur Sure's Mobile Grooming services work?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -62,6 +64,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://fursuregrooming.com/FAQ.html#q3",
           "name": "Do you groom large dogs too?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -70,6 +73,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://fursuregrooming.com/FAQ.html#q4",
           "name": "What products do you use?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -78,6 +82,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://fursuregrooming.com/FAQ.html#q5",
           "name": "Do my pets need to be vaccinated for rabies?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -86,6 +91,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://fursuregrooming.com/FAQ.html#q6",
           "name": "Can I watch while you groom my dog?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -94,6 +100,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://fursuregrooming.com/FAQ.html#q7",
           "name": "Do you offer recurring appointments?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -102,35 +109,35 @@
         }
       ]
     }
-    </script>
-    <script type="application/ld+json">
+  </script>
+  <script type="application/ld+json">
+    {
+     "@context": "https://schema.org",
+     "@type": "BreadcrumbList",
+     "itemListElement":
+     [
       {
-       "@context": "https://schema.org",
-       "@type": "BreadcrumbList",
-       "itemListElement":
-       [
-        {
-         "@type": "ListItem",
-         "position": 1,
-         "item":
-         {
-          "@id": "https://fursuregrooming.com/",
-          "name": "Home"
-          }
-        },
-        {
-         "@type": "ListItem",
-        "position": 2,
-        "item":
-         {
-           "@id": "https://fursuregrooming.com/FAQ.html",
-           "name": "FAQ"
-         }
+       "@type": "ListItem",
+       "position": 1,
+       "item":
+       {
+        "@id": "https://fursuregrooming.com/",
+        "name": "Home"
         }
-       ]
+      },
+      {
+       "@type": "ListItem",
+      "position": 2,
+      "item":
+       {
+         "@id": "https://fursuregrooming.com/FAQ.html",
+         "name": "FAQ"
+       }
       }
-      </script>
-      <!-- End Schema -->
+     ]
+    }
+    </script>
+    <!-- End Schema -->
 
   <!-- Google Tag Manager (deferred for performance) -->
   <script>
