@@ -32,166 +32,102 @@
 
 <!-- JSON-LD WebPage + Service Schema Markup -->
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://fursuregrooming.com/dog-grooming-services.html#webpage",
-    "url": "https://fursuregrooming.com/dog-grooming-services.html",
-    "name": "Full Service Grooming | Baths, Haircuts & Nail Trims | Fur Sure",
-    "description": "Explore Fur Sure Grooming's full range of dog grooming services - full body haircuts, nail trimming and de-shed treatments. Detailed packages with pricing and inclusions inside.",
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@id": "https://fursuregrooming.com/",
-            "name": "Home"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html",
-            "name": "Services"
-          }
-        }
-      ]
+  {"@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://fursuregrooming.com/dog-grooming-services.html#service",
+  "url": "https://fursuregrooming.com/dog-grooming-services.html",
+  "name": "Mobile Dog Grooming Services | Fur Sure Grooming",
+  "description": "Professional mobile dog grooming services including full body haircuts, nail trimming, baths, de-shedding treatments, and specialized care packages. Convenient, stress-free grooming brought to your doorstep in Westminster, Arvada, Longmont, and surrounding areas.",
+  "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
+  "serviceType": "Mobile Dog Grooming",
+  "category": "Pet Services",
+  "provider": {
+    "@type": "LocalBusiness",
+    "@id": "https://fursuregrooming.com/#localbusiness",
+    "name": "Fur Sure Grooming",
+    "image": "https://fursuregrooming.com/assets/images/logo-1500x429-417x119.webp",
+    "telephone": "+1-417-521-0079",
+    "email": "book@fursuregrooming.com",
+    "url": "https://fursuregrooming.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Mobile Business",
+      "addressLocality": "Westminster",
+      "addressRegion": "CO",
+      "postalCode": "80031",
+      "addressCountry": "US"
     },
-    "mainEntity": {
-      "@type": "ItemList",
+"areaServed": [
+    { "@type": "Place", "name": "Westminster" },
+    { "@type": "Place", "name": "Denver" },
+    { "@type": "Place", "name": "Arvada" },
+    { "@type": "Place", "name": "Boulder" },
+    { "@type": "Place", "name": "Northglenn" },
+    { "@type": "Place", "name": "Longmont" },
+    { "@type": "Place", "name": "Broomfield" },
+    { "@type": "Place", "name": "Thornton" },
+    { "@type": "Place", "name": "Erie" },
+    { "@type": "Place", "name": "Superior" },
+    { "@type": "Place", "name": "Lafayette" },
+    { "@type": "Place", "name": "Louisville" },
+    { "@type": "Place", "name": "Frederick" },
+    { "@type": "Place", "name": "Firestone" },
+    { "@type": "Place", "name": "Federal Heights" },
+    { "@type": "Place", "name": "Eastlake" },
+    { "@type": "Place", "name": "Wheat Ridge" }
+  ],
+    "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
+    "priceRange": "$$",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61572299068336",
+      "https://www.instagram.com/fursuremobilegrooming"
+    ],
+  "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Dog Grooming Services",
       "itemListElement": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
+          "@type": "Offer",
+          "itemOffered": {
             "@type": "Service",
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html#pawdicure",
-            "name": "Dog Nail Trim",
-            "description": "Our Pawdicure package is a focused spa treatment for paws and nails—perfect for in-between visits or nervous pups.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://fursuregrooming.com/#localbusiness",
-              "name": "Fur Sure Grooming",
-              "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
-              "telephone": "417-521-0079",
-              "url": "https://fursuregrooming.com/"
-            }
+            "name": "Nail Trim",
+            "description": "Nail trim with Dremel, ear cleaning, teeth cleaning, breath refresh, paw pad shave out"
           }
         },
         {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
+          "@type": "Offer",
+          "itemOffered": {
             "@type": "Service",
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html#paw-some-full-bath",
-            "name": "Paw-some Bath & Brush Package",
-            "description": "Ideal for a clean and refreshed coat between cuts. Great for active dogs or low-shedding breeds.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://fursuregrooming.com/#localbusiness",
-              "name": "Fur Sure Grooming",
-              "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
-              "telephone": "417-521-0079",
-              "url": "https://fursuregrooming.com/"
-            }
+            "name": "Bath Dog Grooming Service",
+            "description": "Full service bath that includes a warm bath, brush & blow dry, nail trim, ear cleaning, teeth & breath refresh, paw pad shave out, bow or bandana"
           }
         },
         {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
+          "@type": "Offer",
+          "itemOffered": {
             "@type": "Service",
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html#full-body-haircut",
-            "name": "Full Service Grooming Package",
-            "description": "Includes a full bath, all-over haircut, and detailed care from ears to tail—perfect for dogs needing a complete grooming reset.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://fursuregrooming.com/#localbusiness",
-              "name": "Fur Sure Grooming",
-              "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
-              "telephone": "417-521-0079",
-              "url": "https://fursuregrooming.com/"
-            }
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "item": {
-            "@type": "Service",
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html#deluxe-lather",
-            "name": "deLuxe Lather",
-            "description": "Upgrade to a premium dog shampoo and conditioner. Select between extra moisturizing, aromatherapy, agave, skin remedy, odor control, hypoallergenic, and seasonal shampoos.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://fursuregrooming.com/#localbusiness",
-              "name": "Fur Sure Grooming",
-              "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
-              "telephone": "417-521-0079",
-              "url": "https://fursuregrooming.com/"
-            }
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "item": {
-            "@type": "Service",
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html#tidy-trim",
-            "name": "Tidy Trim",
-            "description": "A mini sanitary trim that includes paws, face, and sanitary areas can be added to any bath package to support cleanliness, comfort, and health between full body haircuts.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://fursuregrooming.com/#localbusiness",
-              "name": "Fur Sure Grooming",
-              "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
-              "telephone": "417-521-0079",
-              "url": "https://fursuregrooming.com/"
-            }
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "item": {
-            "@type": "Service",
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html#fur-nado-deshed",
-            "name": "Fur-nado deShed",
-            "description": "A premium shed-less dog shampoo and conditioner treatment with an intensive deep de-shedding brush-out specifically designed for heavy shedders.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://fursuregrooming.com/#localbusiness",
-              "name": "Fur Sure Grooming",
-              "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
-              "telephone": "417-521-0079",
-              "url": "https://fursuregrooming.com/"
-            }
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "item": {
-            "@type": "Service",
-            "@id": "https://fursuregrooming.com/dog-grooming-services.html#golden-years-spa",
-            "name": "Golden Years Spa",
-            "description": "Aromatherapy Calming Package for senior or anxious dogs. Aromatherapy Shampoo, a 10-minute bubbly seaweed infused foot soak that hydrates, reduces licking, and conditions paw pads, finished with a paw, nose, and callus balm to keep them feeling young!",
-            "provider": {
-              "@type": "LocalBusiness",
-              "@id": "https://fursuregrooming.com/#localbusiness",
-              "name": "Fur Sure Grooming",
-              "image": "https://fursuregrooming.com/assets/images/dog-grooming-services-meta.webp",
-              "telephone": "417-521-0079",
-              "url": "https://fursuregrooming.com/"
-            }
+            "name": "Full Body Haircut and Bath Dog Grooming Service",
+            "description": "Complete grooming experience with bath and full body haircut including nail trim, ear cleaning, teeth & breath refresh, paw pad shave out, plus dog-friendly perfume"
           }
         }
       ]
     }
-  }
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 39.8367,
+      "longitude": -105.0311
+    },
+    "geoRadius": "25000"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://booking.moego.pet/ol/FurSureGroomingCo/book"
+  },
+"serviceOutput": "Clean, groomed, and healthy dogs with improved coat condition"
+}  
   </script>
   <!-- End JSON-LD Schema Markup -->
 
