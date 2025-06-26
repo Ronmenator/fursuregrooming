@@ -32,35 +32,65 @@
 
 <!-- JSON-LD Local Business Schema Markup for Arvada Page -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Fur Sure Grooming - Arvada",
-  "description": "Professional mobile dog grooming services in Arvada, Colorado. Convenient, full-service pet grooming brought right to your door by Fur Sure Grooming.",
-  "image": "https://fursuregrooming.com/assets/images/dog-grooming-arvada-meta.webp",
-  "@id": "https://fursuregrooming.com/dog-grooming-arvada.html",
-  "url": "https://fursuregrooming.com/dog-grooming-arvada.html",
-  "telephone": "+1-417-521-0079",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Mobile Business",
-    "addressLocality": "Arvada",
-    "addressRegion": "CO",
-    "postalCode": "80004",
-    "addressCountry": "US"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Arvada"
-  },
-  "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
-  "sameAs": [
-		  "https://www.facebook.com/profile.php?id=61572299068336",
-		  "https://www.instagram.com/fursuremobilegrooming"
-		]
-}
-</script>
-<!-- End Schema -->
+	{
+	  "@context": "https://schema.org",
+	  "@type": "LocalBusiness",
+	  "name": "Fur Sure Grooming - Arvada",
+	  "description": "Professional mobile dog grooming services in Arvada, Colorado. Convenient, full-service pet grooming brought right to your door by Fur Sure Grooming.",
+	  "image": "https://fursuregrooming.com/assets/images/dog-grooming-arvada-meta.webp",
+	  "@id": "https://fursuregrooming.com/dog-grooming-arvada.html",
+	  "url": "https://fursuregrooming.com/dog-grooming-arvada.html",
+	  "telephone": "+1-417-521-0079",
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "Mobile Business",
+		"addressLocality": "Arvada",
+		"addressRegion": "CO",
+		"postalCode": "80004",
+		"addressCountry": "US"
+	  },
+	  "areaServed": {
+		"@type": "Place",
+		"name": "Arvada"
+	  },
+	  "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
+	  "sameAs": [
+			  "https://www.facebook.com/profile.php?id=61572299068336",
+			  "https://www.instagram.com/fursuremobilegrooming"
+			],
+	"hasOfferCatalog": {
+	  "@type": "OfferCatalog",
+	  "name": "Arvada Dog Grooming Services",
+	  "itemListElement": [
+		{
+		  "@type": "Offer",
+		  "itemOffered": {
+			"@type": "Service",
+			"name": "Full-Service Grooming Packages",
+			"description": "Baths, brushing, full body haircuts, clipping, nail trims, ear cleaning, teeth and breath refresh"
+		  }
+		},
+		{
+		  "@type": "Offer", 
+		  "itemOffered": {
+			"@type": "Service",
+			"name": "Bath Dog Grooming Service",
+			"description": "Bath, Blow-dry, Brush with nail trimming, ear cleaning, teeth & breath refresh"
+		  }
+		},
+		{
+		  "@type": "Offer",
+		  "itemOffered": {
+			"@type": "Service", 
+			"name": "Nail Trims with Refresh",
+			"description": "Nail trims with teeth and breath refresh for in-between grooms"
+		  }
+		}
+	  ]
+	 }
+	}
+	</script>
+	<!-- End Schema -->
 
   
   <!-- Google Tag Manager (deferred for performance) -->
