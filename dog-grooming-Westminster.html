@@ -62,6 +62,10 @@
 		  "https://www.facebook.com/profile.php?id=61572299068336",
 		  "https://www.instagram.com/fursuremobilegrooming"
 		],
+		"brand": {
+			"@type": "Brand",
+			"name": "Fur Sure Grooming"
+		  },
 		"hasOfferCatalog": {
 		"@type": "OfferCatalog",
 		"name": "Westminster Dog Grooming Services",
@@ -86,8 +90,8 @@
 			"@type": "Offer",
 			"itemOffered": {
 			  "@type": "Service", 
-			  "name": "Nail Trims with Refresh",
-			  "description": "Nail trims with teeth and breath refresh for in-between grooms"
+			  "name": "Nail Trimming",
+			  "description": "Nail trimming with teeth and breath refresh for in-between grooms"
 			}
 		  }
 		]
@@ -120,66 +124,57 @@
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
-		  "@type": "Review",
-		  "@id": "https://fursuregrooming.com/#review-jake",
-		  "itemReviewed": {
-			"@type": "LocalBusiness",
-			"name": "Fur Sure Grooming"
-		  },
-		  "reviewRating": {
-			"@type": "Rating",
+		  "@type": "Product",
+		  "aggregateRating": {
+			"@type": "AggregateRating",
 			"ratingValue": "5",
-			"bestRating": "5"
+			"reviewCount": "20"
 		  },
-		  "author": {
-			"@type": "Person",
-			"name": "Jake"
+		  "description": "Dog Grooming services providing Baths, haircuts, nail trims and de-shedding services",
+		   "name": "Fur Sure Grooming",
+		  "review": [
+			{
+			"@type": "Review",
+			"author": "Jake",        
+			"@id": "https://fursuregrooming.com/#review-jake",
+			"reviewRating": {
+			  "@type": "Rating",
+			  "ratingValue": "5",
+			  "bestRating": "5",
+			  "worstRating": "1"
+			},
+			"name": "Jake",
+			"reviewBody": "Can't recommend this team enough! My pup is not good at haircuts (anxious biter) and they did fantastic. Very patient and kept me well-informed throughout the entire process. "
 		  },
-		  "reviewBody": "Can't recommend this team enough! My pup is not good at haircuts (anxious biter) and they did fantastic. Very patient and kept me well-informed throughout the entire process. "
-		}
-	  </script>	
-	  <script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Review",
-		  "@id": "https://fursuregrooming.com/#review-shannon",
-		  "itemReviewed": {
-			"@type": "LocalBusiness",
-			"name": "Fur Sure Grooming"
+		  {
+			"@type": "Review",
+			"author": "Shannon",        
+			"@id": "https://fursuregrooming.com/#review-shannon",
+			"reviewRating": {
+			  "@type": "Rating",
+			  "ratingValue": "5",
+			  "bestRating": "5",
+			  "worstRating": "1"
+			},
+			"name": "Shannon",
+			"reviewBody": "This is THE place to go for mobile pet grooming! The groomers are so friendly, great with dogs, and they did a fantastic job with Lylas' nail trim, teeth and ear cleaning."
 		  },
-		  "reviewRating": {
-			"@type": "Rating",
-			"ratingValue": "5",
-			"bestRating": "5"
-		  },
-		  "author": {
-			"@type": "Person",
-			"name": "Shannon"
-		  },
-		  "reviewBody": "This is THE place to go for mobile pet grooming! The groomers are so friendly, great with dogs, and they did a fantastic job with Lylas' nail trim, teeth and ear cleaning."
-		}
-	  </script>	
-	  <script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Review",
-		  "@id": "https://fursuregrooming.com/#review-pam",
-		  "itemReviewed": {
-			"@type": "LocalBusiness",
-			"name": "Fur Sure Grooming"
-		  },
-		  "reviewRating": {
-			"@type": "Rating",
-			"ratingValue": "5",
-			"bestRating": "5"
-		  },
-		  "author": {
-			"@type": "Person",
-			"name": "Pam"
-		  },
-		  "reviewBody": "The last groomer left my dog in a mess. I decided to use Fur Sure Grooming and they did a Fantastic job. They took the time to ease my pups fear of grooming and went at her pace. She came back to me beautiful and a happy dog! Highly recommend For Sure Grooming!"
-		}
-	  </script>	
+		  {
+			"@type": "Review",
+			"author": "Pam",        
+			"@id": "https://fursuregrooming.com/#review-pam",
+			"reviewRating": {
+			  "@type": "Rating",
+			  "ratingValue": "5",
+			  "bestRating": "5",
+			  "worstRating": "1"
+			},
+			"name": "Pam",
+			"reviewBody": "The last groomer left my dog in a mess. I decided to use Fur Sure Grooming and they did a Fantastic job. They took the time to ease my pups fear of grooming and went at her pace. She came back to me beautiful and a happy dog! Highly recommend For Sure Grooming!"
+		  }
+		]
+	  }
+	  </script>
 	  <script type="application/ld+json">
 		{	
 	"@context": "https://schema.org",
@@ -207,7 +202,8 @@
 				"@type": "Answer",
 				"text": "We work with lots of anxious pups in Westminster. Our mobile setup is calm and quiet—no barking dogs or loud dryers in the background. We take our time, use gentle techniques, and if your dog needs breaks or has special needs, we're happy to adapt. A lot of our repeat clients started out nervous and now wag their tails when we pull up."
 			}
-		}		]
+		}
+		]
 	  }  	  	  	  
 <!-- End Schema -->
 
