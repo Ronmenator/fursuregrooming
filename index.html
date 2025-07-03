@@ -51,36 +51,14 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Fur Sure Grooming",
+    "image": "https://fursuregrooming.com/assets/images/index-meta.webp",
+    "@id": "https://fursuregrooming.com/#Organization",
     "url": "https://fursuregrooming.com",
     "logo": "https://fursuregrooming.com/assets/images/logo-1500x429-417x119.webp",
+    "telephone": "(417) 521-0079",
+    "email": "booking@fursuregrooming.com",       
     "foundingDate": "2025",
-    "description": "Professional mobile dog grooming services in North Denver Metro Area",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Westminster",
-      "addressRegion": "CO",
-      "addressCountry": "US"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1-417-521-0079",
-      "contactType": "customer service",
-      "availableLanguage": "English"
-    }
-  }
-  </script>
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Fur Sure Grooming",
-    "description": "Professional mobile pet grooming services based in Westminster, CO. Serving North Denver Metro and surrounding areas with quality, stress-free dog grooming and nail trimming at your doorstep.",
-    "image": "https://fursuregrooming.com/assets/images/index-meta.webp",
-    "@id": "https://fursuregrooming.com/#localbusiness",
-    "url": "https://fursuregrooming.com",
-    "telephone": "+1-417-521-0079",
-    "email": "booking@fursuregrooming.com",    
-    "foundingDate": "2025",
+    "description": "Professional mobile dog grooming services in North Denver Metro Area. Serving North Denver Metro and surrounding areas with quality, stress-free dog grooming and nail trimming at your doorstep.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Westminster",
@@ -88,7 +66,13 @@
       "postalCode": "80031",
       "addressCountry": "US"
     },
-    "areaServed": [
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-417-521-0079",
+      "contactType": "customer service",
+      "availableLanguage": "English"
+    },
+     "areaServed": [
     { "@type": "Place", "name": "Westminster" },
     { "@type": "Place", "name": "Denver" },
     { "@type": "Place", "name": "Arvada" },
@@ -107,20 +91,10 @@
     { "@type": "Place", "name": "Eastlake" },
     { "@type": "Place", "name": "Wheat Ridge" }
   ],
-    "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
-    "priceRange": "$$",
-    "paymentAccepted": "Credit Card",
-    "currenciesAccepted": "USD",
     "sameAs": [
       "https://www.facebook.com/profile.php?id=61572299068336",
       "https://www.instagram.com/fursuremobilegrooming"
     ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1-417-521-0079",
-      "contactType": "customer service",
-      "availableLanguage": "English"
-    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Dog Grooming Services",
@@ -168,8 +142,9 @@
         "@type": "Review",
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
         },
         "author": {
           "@type": "Person",
@@ -181,81 +156,57 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "AggregateRating",
-      "itemReviewed": {
-        "@type": "LocalBusiness",
-        "name": "Fur Sure Grooming"
+      "@type": "Product",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "20"
       },
-      "ratingValue": "5.0",
-      "bestRating": "5",
-      "worstRating": "1",
-      "ratingCount": "50",
-      "reviewCount": "45"
-    }
+      "description": "Dog Grooming services providing Baths, haircuts, nail trims and de-shedding services",
+       "name": "Fur Sure Grooming",
+      "review": [
+        {
+        "@type": "Review",
+        "author": "Jake",        
+        "@id": "https://fursuregrooming.com/#review-jake",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "name": "Jake",
+        "reviewBody": "Can't recommend this team enough! My pup is not good at haircuts (anxious biter) and they did fantastic. Very patient and kept me well-informed throughout the entire process. "
+      },
+      {
+        "@type": "Review",
+        "author": "Corey",        
+        "@id": "https://fursuregrooming.com/#review-corey",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "name": "Corey",
+        "reviewBody": "They did a great job with my two doodles! One got a bath and cut, the other got the Pawdicure, and they both loved it. My older labradoodle looks adorable and is so clean. I would recommend them 10 times out of 10!"
+      },
+      {
+        "@type": "Review",
+        "author": "Tracy",        
+        "@id": "https://fursuregrooming.com/#review-tracy",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "name": "Tracy",
+        "reviewBody": "Jacob was amazing with my dogs. He also volunteered for our rescue and groomed several dogs. He was great with the ones that struggle with anxiety and was able to keep them calm. I highly recommend using him to groom your pets."
+      }
+    ]
+  }
   </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "@id": "https://fursuregrooming.com/#review-jake",
-      "itemReviewed": {
-        "@type": "LocalBusiness",
-        "name": "Fur Sure Grooming"
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Jake"
-      },
-      "reviewBody": "Can't recommend this team enough! My pup is not good at haircuts (anxious biter) and they did fantastic. Very patient and kept me well-informed throughout the entire process. "
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "@id": "https://fursuregrooming.com/#review-corey",
-      "itemReviewed": {
-        "@type": "LocalBusiness",
-        "name": "Fur Sure Grooming"
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Corey"
-      },
-      "reviewBody": "They did a great job with my two doodles! One got a bath and cut, the other got the Pawdicure, and they both loved it. My older labradoodle looks adorable and is so clean. I would recommend them 10 times out of 10!"
-    }
-  </script>  
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "@id": "https://fursuregrooming.com/#review-jacob",
-      "itemReviewed": {
-        "@type": "LocalBusiness",
-        "name": "Fur Sure Grooming"
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Tracy"
-      },
-      "reviewBody": "Jacob was amazing with my dogs. He also volunteered for our rescue and groomed several dogs. He was great with the ones that struggle with anxiety and was able to keep them calm. I highly recommend using him to groom your pets."
-    }
-  </script>  
   <!-- End Schema -->
   
   <link rel="preconnect" href="https://www.googletagmanager.com">
