@@ -1,6 +1,9 @@
 User-agent: *
-
+Allow: /
 Disallow: /cgi-bin
+Disallow: /history/
+Disallow: /assets/bootstrap/
+Disallow: /assets/theme/
  
 Sitemap: https://fursuregrooming.com/sitemap.xml
  
