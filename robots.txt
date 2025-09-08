@@ -1,12 +1,25 @@
 User-agent: *
 Allow: /
+
+# Allow ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+# Allow Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Allow Google (Bard/Gemini uses Googlebot)
+User-agent: Googlebot
+Allow: /
+
+# Block everything else by default (optional)
+User-agent: *
+Disallow: /private/
+
 Disallow: /cgi-bin
 Disallow: /history/
 Disallow: /assets/bootstrap/
-Disallow: /assets/theme/
  
 Sitemap: https://fursuregrooming.com/sitemap.xml
  
-
-
-
