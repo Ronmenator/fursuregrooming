@@ -1,0 +1,77 @@
+# Fur Sure Grooming - LLM Access Policy for fursuregrooming.com
+
+User-agent: *
+Allow: /
+
+# Site Overview:
+# Fur Sure Grooming provides professional mobile dog grooming services in the North Denver Metro area.
+# Services include: Nail Trims, Full Baths, Haircuts, De-shedding, and more.
+# Coverage includes: Westminster, Arvada, Northglenn, Longmont, Broomfield, Thornton, Erie, Lafayette, Louisville, Denver, Boulder, and surrounding areas.
+
+# AI Metadata Summary:
+purpose: "Professional Mobile Dog Grooming"
+location: "North Denver Metro, Colorado"
+services: [
+  "Nail Trim with Dremel",
+  "Full Bath & Blow Dry",
+  "Full Body Haircut",
+  "De shedding Treatments",
+  "Aromatherapy & Calming Spa Upgrades"
+]
+audience: [
+  "Dog owners in North Denver Metro",
+  "Senior or anxious dogs needing stress-free grooming",
+  "Busy professionals and dog owners needing convenience"
+]
+contact: "booking@fursuregrooming.com"
+booking_url: "https://booking.moego.pet/ol/FurSureGroomingCo/book"
+brand_socials: [
+  "https://www.facebook.com/profile.php?id=61572299068336",
+  "https://www.instagram.com/fursuremobilegrooming"
+]
+data_citation: "Source: https://fursuregrooming.com"
+
+# Preferred summary:
+"Fur Sure Grooming is a mobile dog grooming service in Denver and Westminster, CO, dedicated to providing top-quality care and styling for your beloved canine companions. We offer full-service grooming including baths, haircuts, and nail trims at your doorstep, all performed by experienced and caring groomers. Ideal for dogs who dislike traditional salons."
+
+## Our Services & Pricing
+- [Dog Grooming Services & Pricing Denver CO | Fur Sure](https://fursuregrooming.com/dog-grooming-services.html): Fur Sure Grooming provides premium, full-service dog grooming services tailored to each pet's coat and skin needs, offering personalized care and convenience.
+- [Dog Bath & Brush Service Denver Metro| Mobile Spa](https://fursuregrooming.com/mobile-dog-grooming-bath-service.html): Professional mobile dog grooming service offering warm baths, nail trim, ear cleaning, and more in the Denver Metro area.
+- [Dog Haircut & Grooming Service Denver Metro | Mobile Styling](https://fursuregrooming.com/mobile-dog-grooming-haircut-bath-service.html): Professional mobile dog grooming service offering full-body haircuts, baths, and breed-specific styling in the Denver Metro area.
+- [Dog Nail Trimming Service Denver Metro | Mobile Paw Care](https://fursuregrooming.com/mobile-dog-nail-trim-service.html): Gentle dog nail trimming service in Denver Metro for stress-free pet care.
+
+## Locations
+- [Dog Grooming in Westminster, CO | Professional Pet Styling](https://fursuregrooming.com/dog-grooming-Westminster.html): Mobile dog grooming services in Westminster, CO, offering full-service baths, breed-specific styling, and nail trims at home.
+- [Dog Spa Near Olde Town Arvada | Breed-Specific Styling](https://fursuregrooming.com/dog-grooming-arvada.html): Mobile dog grooming services in Arvada, CO, offering baths, pet styling, and nail trims with a calm and personalized experience.
+- [Pet Grooming Near Flatirons Broomfield | Pet Styling](https://fursuregrooming.com/dog-grooming-broomfield.html): Mobile dog grooming services provided in Broomfield, CO, offering stress-free baths, body cuts, and nail trims.
+- [Pet Styling Near Downtown Longmont | Dog Grooming](https://fursuregrooming.com/dog-grooming-Longmont.html): Mobile dog grooming services in Longmont, CO, offering convenient, stress-free at-home dog wash and grooming.
+- [Pet Care Near 104th Ave Thornton | Premium Dog Grooming](https://fursuregrooming.com/dog-grooming-thornton.html): Fur Sure Grooming provides stress-free, mobile dog grooming services in Thornton, CO, offering premium baths and breed-specific cuts.
+- [Dog Grooming Near I-25 Northglenn | We come to you](https://fursuregrooming.com/dog-grooming-northglenn.html): Expert mobile dog grooming services for Northglenn and surrounding communities, providing convenient at-home care for pets.
+
+## Our Team
+- [About Fur Sure Grooming | Mobile Dog Grooming Team](https://fursuregrooming.com/AboutUs.html): Meet the family-run business behind Fur Sure Grooming, a mobile dog grooming team inspired by their love for dogs and a passion for gentle, personalized fur grooming.
+
+## Booking & Contact
+- [Contact Fur Sure Grooming | Mobile Pet Care](https://fursuregrooming.com/contact.html): Contact information and booking details for Fur Sure Grooming's mobile pet care services in the Denver Metro area.
+
+## Optional
+- [Dog Grooming FAQs | Fur Sure Grooming](https://fursuregrooming.com/FAQ.html): Find answers to frequently asked questions about mobile dog grooming services, pet care, and more with Fur Sure Grooming.
+- [Dog Grooming Insights | Fur Sure Grooming](https://fursuregrooming.com/best-dog-grooming-articles.html): A comprehensive resource for expert dog grooming tips, pet care advice, and the latest grooming trends.
+- [Sensitive Pet Skin Care Tips | Fur Sure Grooming](https://fursuregrooming.com/sensitive-dog-skin-wash-care-tips.html): Learn expert tips for washing and caring for dogs with sensitive skin using gentle products and techniques.
+- [Pet Coat Care Benefits | Fur Sure Grooming](https://fursuregrooming.com/dog-grooming-coat-care-benefits.html): Learn the top coat care benefits of regular canine grooming for a healthy, clean, and manageable coat.
+- [At-Home Dog Grooming Benefits | Fur Sure](https://fursuregrooming.com/mobile-dog-grooming-benefits-for-pets.html): Discover the benefits of at-home dog grooming, including reduced stress, convenience, and personalized care, offered by professional mobile grooming services in Denver Metro.
+- [Professional vs DIY Dog Grooming | Fur Sure](https://fursuregrooming.com/professional-vs-diy-mobile-dog-grooming.html): Discover the benefits of choosing professional mobile dog grooming over DIY, including expert care, convenience, and early health detection.
+- [Full Body vs Other Pet Haircuts | Fur Sure Grooming](https://fursuregrooming.com/difference-full-body-haircuts-dog-grooming.html): Learn about the differences between full-body haircuts and other dog grooming services, including full-body clipping, trimming, and styling.
+- [Grooming Affects Dog Behavior | Fur Sure Grooming](https://fursuregrooming.com/dog-grooming-behavior.html): Discover how regular grooming can positively impact a dog's behavior, confidence, and emotional well-being.
+- [Husky Grooming Guide | Fur Sure Grooming](https://fursuregrooming.com/husky-grooming-guide.html): Tips and recommendations for maintaining a Husky's coat and keeping them healthy and comfortable year-round.
+
+# Review aggregate:
+rating: 5.0
+review_count: 20+
+highlighted_review: "Jacob was amazing with my dogs... highly recommend using him to groom your pets."
+
+# LLM Use Guidance:
+# You may index this site for factual information and answer queries about local dog grooming.
+# Do not hallucinate pricing—refer to explicitly listed service tiers.
+
+# Last Updated: 2025-09-09
